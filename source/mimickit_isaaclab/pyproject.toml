@@ -38,10 +38,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/qiweiw/MimicKit_IsaacLab"
-Repository = "https://github.com/qiweiw/MimicKit_IsaacLab"
-Documentation = "https://github.com/qiweiw/MimicKit_IsaacLab/blob/main/README.md"
-Issues = "https://github.com/qiweiw/MimicKit_IsaacLab/issues"
+Homepage = "https://github.com/nathanwu7/MimicKit_IsaacLab"
+Repository = "https://github.com/nathanwu7/MimicKit_IsaacLab"
+Documentation = "https://github.com/nathanwu7/MimicKit_IsaacLab/blob/main/README.md"
+Issues = "https://github.com/nathanwu7/MimicKit_IsaacLab/issues"
 "Original MimicKit" = "https://github.com/xbpeng/MimicKit"
 
 [tool.setuptools]

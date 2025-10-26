@@ -29,7 +29,7 @@ This is an Isaac Lab implementation of [MimicKit](https://github.com/xbpeng/Mimi
 
 2. **Clone and install MimicKit for Isaac Lab**:
 ```bash
-git clone https://github.com/qiweiw/MimicKit_IsaacLab.git
+git clone https://github.com/nathanwu7/MimicKit_IsaacLab.git
 cd MimicKit_IsaacLab
 pip install -e source/mimickit_isaaclab
 ```
@@ -230,6 +230,6 @@ This project is licensed under the BSD-3-Clause License. See LICENSE file for de
 ## Contact & Support
 
 For issues, questions, or contributions:
-- Open an issue on [GitHub](https://github.com/qiweiw/MimicKit_IsaacLab)
+- Open an issue on [GitHub](https://github.com/nathanwu7/MimicKit_IsaacLab)
 - Refer to [Isaac Lab documentation](https://isaac-sim.github.io/IsaacLab/) for simulation-specific questions
 - See original [MimicKit](https://github.com/xbpeng/MimicKit) for Isaac Gym implementation
