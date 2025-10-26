@@ -102,4 +102,3 @@ if __name__ == "__main__":
     main()
     # Close the simulator
     simulation_app.close()
-

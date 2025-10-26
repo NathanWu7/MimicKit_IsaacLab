@@ -14,6 +14,19 @@ This is an Isaac Lab implementation of [MimicKit](https://github.com/xbpeng/Mimi
 - **SMPL & G1 Support**: Humanoid (SMPL) and robot (Unitree G1) character models
 - **GPU-Accelerated**: Parallel simulation with NVIDIA Isaac Sim
 
+### Demos
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="docs/1.gif" alt="Policy Playback" width="400"/>
+    </td>
+    <td align="center">
+      <img src="docs/2.gif" alt="Motion Replay" width="400"/>
+    </td>
+  </tr>
+</table>
+
 ## Installation
 
 ### Prerequisites
