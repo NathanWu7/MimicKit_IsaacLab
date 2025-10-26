@@ -2,7 +2,7 @@
 
 Physics-based character animation using Isaac Lab, featuring motion imitation with DeepMimic, AMP, and ASE algorithms.
 
-This is an Isaac Lab implementation of [MimicKit](https://github.com/xbpeng/MimicKit), adapted for NVIDIA Isaac Sim and Isaac Lab.
+This is an Isaac Lab implementation of [MimicKit](https://github.com/xbpeng/MimicKit), adapted for NVIDIA Isaac Sim and Isaac Lab. The G1 robot configuration and USD assets are adapted from [TrackerLab](https://github.com/Renforce-Dynamics/trackerLab).
 
 > **Note**: This repository was developed with significant AI assistance. If you find areas for improvement or optimization, please open an issue or pull request. Contributions are welcome!
 
@@ -222,6 +222,7 @@ This project is licensed under the BSD-3-Clause License. See LICENSE file for de
 
 - Based on [MimicKit](https://github.com/xbpeng/MimicKit) by Xue Bin Peng
 - Built on [Isaac Lab](https://isaac-sim.github.io/IsaacLab/) by NVIDIA
+- G1 robot configuration and USD assets adapted from [TrackerLab](https://github.com/Renforce-Dynamics/trackerLab) by Ziang Zheng
 - Inspired by:
   - [DeepMimic](https://arxiv.org/abs/1804.02717) (Peng et al., 2018)
   - [AMP](https://arxiv.org/abs/2104.02180) (Peng et al., 2021)
