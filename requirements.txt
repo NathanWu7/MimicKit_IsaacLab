@@ -1,0 +1,18 @@
+# MimicKit for Isaac Lab Requirements
+
+# Core dependencies (provided by Isaac Lab environment)
+# torch>=2.5.0
+# numpy>=1.23.0
+
+# Isaac Lab (install separately following official instructions)
+# isaacsim>=4.5.0
+# isaaclab>=2.1.0
+
+# Additional dependencies
+scipy>=1.10.0
+
+# Development dependencies (optional)
+# pytest>=7.0.0
+# black>=22.0.0
+# flake8>=5.0.0
+

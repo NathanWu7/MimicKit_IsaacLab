@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<robot name="simple_box">
+  <link name="base_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1.920"/>
+      <inertia ixx="0.16" iyy="0.0832" izz="0.128"
+               ixy="0.0" ixz="0.0" iyz="0.0"/>
+    </inertial>
+    
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <!-- Dimensions: X, Y, Z (meters) -->
+        <box size="0.4 2.0 0.6"/>
+      </geometry>
+    </collision>
+
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.4 2.0 0.6"/>
+      </geometry>
+      <material name="gray">
+        <color rgba="0.7 0.7 0.7 1.0"/>
+      </material>
+    </visual>
+  </link>
+</robot>

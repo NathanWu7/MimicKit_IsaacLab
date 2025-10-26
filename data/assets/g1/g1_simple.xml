@@ -1,0 +1,37 @@
+<mujoco model="g1_29dof_simple">
+  <compiler angle="radian"/>
+  <worldbody>
+    <body name="pelvis" pos="0 0 0.793">
+      <freejoint name="root"/>
+      <joint name="left_hip_pitch_joint" type="hinge" axis="0 1 0"/>
+      <joint name="left_hip_roll_joint" type="hinge" axis="1 0 0"/>
+      <joint name="left_hip_yaw_joint" type="hinge" axis="0 0 1"/>
+      <joint name="left_knee_joint" type="hinge" axis="0 1 0"/>
+      <joint name="left_ankle_pitch_joint" type="hinge" axis="0 1 0"/>
+      <joint name="left_ankle_roll_joint" type="hinge" axis="1 0 0"/>
+      <joint name="right_hip_pitch_joint" type="hinge" axis="0 1 0"/>
+      <joint name="right_hip_roll_joint" type="hinge" axis="1 0 0"/>
+      <joint name="right_hip_yaw_joint" type="hinge" axis="0 0 1"/>
+      <joint name="right_knee_joint" type="hinge" axis="0 1 0"/>
+      <joint name="right_ankle_pitch_joint" type="hinge" axis="0 1 0"/>
+      <joint name="right_ankle_roll_joint" type="hinge" axis="1 0 0"/>
+      <joint name="waist_yaw_joint" type="hinge" axis="0 0 1"/>
+      <joint name="waist_roll_joint" type="hinge" axis="1 0 0"/>
+      <joint name="waist_pitch_joint" type="hinge" axis="0 1 0"/>
+      <joint name="left_shoulder_pitch_joint" type="hinge" axis="0 1 0"/>
+      <joint name="left_shoulder_roll_joint" type="hinge" axis="1 0 0"/>
+      <joint name="left_shoulder_yaw_joint" type="hinge" axis="0 0 1"/>
+      <joint name="left_elbow_joint" type="hinge" axis="0 1 0"/>
+      <joint name="left_wrist_roll_joint" type="hinge" axis="1 0 0"/>
+      <joint name="left_wrist_pitch_joint" type="hinge" axis="0 1 0"/>
+      <joint name="left_wrist_yaw_joint" type="hinge" axis="0 0 1"/>
+      <joint name="right_shoulder_pitch_joint" type="hinge" axis="0 1 0"/>
+      <joint name="right_shoulder_roll_joint" type="hinge" axis="1 0 0"/>
+      <joint name="right_shoulder_yaw_joint" type="hinge" axis="0 0 1"/>
+      <joint name="right_elbow_joint" type="hinge" axis="0 1 0"/>
+      <joint name="right_wrist_roll_joint" type="hinge" axis="1 0 0"/>
+      <joint name="right_wrist_pitch_joint" type="hinge" axis="0 1 0"/>
+      <joint name="right_wrist_yaw_joint" type="hinge" axis="0 0 1"/>
+    </body>
+  </worldbody>
+</mujoco>

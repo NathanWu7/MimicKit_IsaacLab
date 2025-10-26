@@ -1,0 +1,65 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mimickit_isaaclab"
+version = "1.0.0"
+description = "MimicKit for Isaac Lab - Motion Imitation Framework with DeepMimic, AMP, and ASE"
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["robotics", "reinforcement learning", "motion imitation", "isaac lab", "deepmimic", "amp", "ase"]
+license = {text = "BSD-3-Clause"}
+authors = [
+    {name = "Qiwei Wu"},
+]
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+
+dependencies = [
+    "scipy>=1.10.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "black>=22.0",
+    "flake8>=5.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/qiweiw/MimicKit_IsaacLab"
+Repository = "https://github.com/qiweiw/MimicKit_IsaacLab"
+Documentation = "https://github.com/qiweiw/MimicKit_IsaacLab/blob/main/README.md"
+Issues = "https://github.com/qiweiw/MimicKit_IsaacLab/issues"
+"Original MimicKit" = "https://github.com/xbpeng/MimicKit"
+
+[tool.setuptools]
+packages = [
+    "mimickit_isaaclab",
+    "mimickit_isaaclab.anim",
+    "mimickit_isaaclab.utils",
+    "mimickit_isaaclab.assets",
+    "mimickit_isaaclab.assets.Config",
+    "mimickit_isaaclab.assets.Config.robots",
+    "mimickit_isaaclab.tasks",
+    "mimickit_isaaclab.tasks.direct",
+    "mimickit_isaaclab.tasks.direct.deepmimic",
+    "mimickit_isaaclab.tasks.direct.deepmimic.agents",
+    "mimickit_isaaclab.tasks.direct.amp",
+    "mimickit_isaaclab.tasks.direct.amp.agents",
+    "mimickit_isaaclab.tasks.direct.ase",
+    "mimickit_isaaclab.tasks.direct.ase.agents",
+]
+package-dir = {"" = "."}
+

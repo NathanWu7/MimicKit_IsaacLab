@@ -1,0 +1,55 @@
+# Example configuration files for MimicKit environments
+
+# Humanoid Walk
+char_file: "data/assets/mjcf/humanoid.xml"
+motion_file: "data/motions/humanoid_walk.pkl"
+num_envs: 4096
+episode_length_s: 10.0
+control_mode: "pd"
+
+# Observation settings
+global_obs: false
+root_height_obs: true
+enable_phase_obs: true
+num_phase_encoding: 2
+
+# Termination settings
+enable_early_termination: true
+termination_height: 0.3
+
+# Contact bodies (feet)
+contact_bodies:
+  - "right_foot"
+  - "left_foot"
+
+# Key bodies to track
+key_bodies:
+  - "right_hand"
+  - "left_hand"
+  - "right_foot"
+  - "left_foot"
+
+# Reward weights
+reward_pose_w: 0.5
+reward_vel_w: 0.05
+reward_root_pose_w: 0.15
+reward_root_vel_w: 0.1
+reward_key_pos_w: 0.2
+
+# Reward scales
+reward_pose_scale: 2.0
+reward_vel_scale: 0.1
+reward_root_pose_scale: 20.0
+reward_root_vel_scale: 2.0
+reward_key_pos_scale: 2.0
+
+# Reference character
+visualize_ref_char: true
+ref_char_offset: [2.0, 0.0, 0.0]
+
+# Random reset
+rand_reset: true
+
+# Camera
+camera_mode: "track"
+
