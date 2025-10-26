@@ -35,6 +35,7 @@ env/
 # Logs and output
 logs/
 output/
+outputs/
 *.log
 
 # Model checkpoints (trained models are usually large)
