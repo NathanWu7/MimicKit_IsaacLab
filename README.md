@@ -228,6 +228,16 @@ Motion files (`.pkl`) should contain a dictionary with:
   year = {2022},
 }
 ```
+## Citation
+```bibtex
+@misc{MimicKit_IsaacLab,
+  author = {Qiwei Wu},
+  title = {MimicKit Support for Isaac Lab},
+  url = {https://github.com/NathanWu7/MimicKit_IsaacLab},
+  year = {2025}
+}
+```
+Or star my repo.
 
 ## License
 
