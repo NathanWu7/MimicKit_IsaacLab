@@ -227,10 +227,16 @@ Motion files (`.pkl`) should contain a dictionary with:
   number = {4},
   year = {2022},
 }
+@software{zheng2025@trackerLab,
+  author = {Ziang Zheng},
+  title = {TrackerLab: One step unify IsaacLab with multi-mode whole-body control.},
+  url = {https://github.com/interval-package/trackerLab},
+  year = {2025}
+}
 ```
 ## Citation
 ```bibtex
-@misc{MimicKit_IsaacLab,
+@software{MimicKit_IsaacLab,
   author = {Qiwei Wu},
   title = {MimicKit Support for Isaac Lab},
   url = {https://github.com/NathanWu7/MimicKit_IsaacLab},
