@@ -253,7 +253,7 @@ This project is licensed under the BSD-3-Clause License. See LICENSE file for de
 
 - Based on [MimicKit](https://github.com/xbpeng/MimicKit) by Xue Bin Peng
 - Built on [Isaac Lab](https://isaac-sim.github.io/IsaacLab/) by NVIDIA
-- G1 robot configuration and USD assets adapted from [TrackerLab](https://github.com/Renforce-Dynamics/trackerLab) by Ziang Zheng
+- G1 robot configuration and USD assets adapted from [TrackerLab](https://github.com/Renforce-Dynamics/trackerLab) by Ziang Zheng and this repo https://github.com/Beat-in-our-hearts/mujoco_sim2sim_assets
 - Inspired by:
   - [DeepMimic](https://arxiv.org/abs/1804.02717) (Peng et al., 2018)
   - [AMP](https://arxiv.org/abs/2104.02180) (Peng et al., 2021)
