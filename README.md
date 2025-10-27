@@ -26,7 +26,8 @@ This is an Isaac Lab implementation of [MimicKit](https://github.com/xbpeng/Mimi
     </td>
   </tr>
 </table>
-**I reconstruct the scene using 3D Gaussian Splatting combined with 3DGRUT**
+
+_I reconstruct the scene using 3D Gaussian Splatting combined with 3DGRUT_
 
 ## Installation
 
