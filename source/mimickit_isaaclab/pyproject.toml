@@ -44,22 +44,7 @@ Documentation = "https://github.com/nathanwu7/MimicKit_IsaacLab/blob/main/README
 Issues = "https://github.com/nathanwu7/MimicKit_IsaacLab/issues"
 "Original MimicKit" = "https://github.com/xbpeng/MimicKit"
 
-[tool.setuptools]
-packages = [
-    "mimickit_isaaclab",
-    "mimickit_isaaclab.anim",
-    "mimickit_isaaclab.utils",
-    "mimickit_isaaclab.assets",
-    "mimickit_isaaclab.assets.Config",
-    "mimickit_isaaclab.assets.Config.robots",
-    "mimickit_isaaclab.tasks",
-    "mimickit_isaaclab.tasks.direct",
-    "mimickit_isaaclab.tasks.direct.deepmimic",
-    "mimickit_isaaclab.tasks.direct.deepmimic.agents",
-    "mimickit_isaaclab.tasks.direct.amp",
-    "mimickit_isaaclab.tasks.direct.amp.agents",
-    "mimickit_isaaclab.tasks.direct.ase",
-    "mimickit_isaaclab.tasks.direct.ase.agents",
-]
-package-dir = {"" = "."}
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["mimickit_isaaclab*"]
 
